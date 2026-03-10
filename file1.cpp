@@ -21,3 +21,12 @@ string cekstatus(float bmi){
         return "obesitas";
     }
 }
+
+// Prosedur untuk input data dari pengguna
+void masukanData(float &berat, float &tinggi) {
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
+    cout << "Masukkan berat badan (kg): ";
+    cin >> berat;
+    cout << "Masukkan tinggi badan (meter): ";
+    cin >> tinggi;
+}
