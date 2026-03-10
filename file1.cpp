@@ -39,3 +39,9 @@ int main() {
 
     // Memanggil fungsi perhitungan
     nilaiBMI = hitungBMI(berat, tinggi);
+
+    // Tampilan Output Hasil
+    cout << endl;
+    cout << "--- Hasil ---" << endl;
+    cout << "BMI Anda : " << nilaiBMI << endl;
+    cout << "Status   : " << cekStatus(nilaiBMI) << endl;
