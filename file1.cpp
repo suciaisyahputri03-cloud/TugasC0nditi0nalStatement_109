@@ -45,3 +45,6 @@ int main() {
     cout << "--- Hasil ---" << endl;
     cout << "BMI Anda : " << nilaiBMI << endl;
     cout << "Status   : " << cekStatus(nilaiBMI) << endl;
+
+    return 0;
+}
